@@ -8,7 +8,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
     <input type="text" placeholder="Enter Your Name" value={name}onChange={(e)=>setName(e.target.value)}/>
-{name<p>Hello,{name}!</p>}
+{name&&<p>Hello,{name}!</p>}
     </div>
   )
 }
